@@ -12,6 +12,26 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+input, button {
+  margin: .5em;
+  padding: .5em;
+  font-size: .5em;
+  border-radius: 2px 5px;
+  box-shadow: white .5px .5px .5px .5px;
+}
+button:hover, input:hover, input:focus {
+  background-color: #d9e0ec;
+}
+
+input[type=checkbox] {
+  box-shadow: 0 0 0 0;
+  
+}
+
+button {
+  background-color: whitesmoke;
+  color: #1c1f25;
+}
 
 .App-header {
   background-color: #1c1f25;
@@ -34,6 +54,11 @@
   color: white;
 }
 
+.Container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
 
 .App-link {
   color: #61dafb;
